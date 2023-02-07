@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
 
-import "ERC20.sol";
-import "ERC20Burnable.sol";
-import "Ownable.sol";
-import "draft-ERC20Permit.sol";
-import "ERC20Votes.sol";
+import "https://github.com/SOFZP/VIK-Token-Smart-Contract/blob/main/ERC20.sol";
+import "https://github.com/SOFZP/VIK-Token-Smart-Contract/blob/main/ERC20Burnable.sol";
+import "https://github.com/SOFZP/VIK-Token-Smart-Contract/blob/main/Ownable.sol";
+import "https://github.com/SOFZP/VIK-Token-Smart-Contract/blob/main/draft-ERC20Permit.sol";
+import "https://github.com/SOFZP/VIK-Token-Smart-Contract/blob/main/ERC20Votes.sol";
 
 contract VIK is ERC20, ERC20Burnable, Ownable, ERC20Permit, ERC20Votes {
     constructor() ERC20("VIK", "VIK") ERC20Permit("VIK") {
